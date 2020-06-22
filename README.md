@@ -10,7 +10,7 @@ docker push 529448940572.dkr.ecr.ap-south-1.amazonaws.com/aman/nodejs-test:lates
 
 Steps to pull an Image from ECR:
 
-For pulling the docker image from the ECR, we need to cretae a secrets in Kubectl via DockerHub ID, Please find the command below:
+For pulling the docker image from the ECR, we need to create secrets in Kubectl via loggong in using DockerHub ID, Please find the command below:
 kubectl create secret docker-registry regcred --docker-server=user-id.dkr.ecr.ap-south-1.amazonaws.com/repo-name --docker-username=username --docker-password=jahsgdbhtybsaj
 
 This will create a Secret which will help Pull image from the ECR.
